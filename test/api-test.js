@@ -17,7 +17,7 @@ describe('assert-text', function() {
 
   it('should not throw on equal trimmed lines', function() {
     assert.doesNotThrow(function() {
-      assertText.equal('a \n b', ' a\nb ', { trim: true });
+      assertText.equal('\na \n b', ' a\nb ', { trim: true });
     });
   });
 
