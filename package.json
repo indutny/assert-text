@@ -1,0 +1,30 @@
+{
+  "name": "assert-text",
+  "version": "1.0.0",
+  "description": "Assert functions for comparing texts line by line",
+  "main": "lib/assert.js",
+  "scripts": {
+    "test": "jscs lib/*.js test/*.js && jshint lib/*.js && mocha --reporter=spec test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/assert-text.js.git"
+  },
+  "keywords": [
+    "assert",
+    "text",
+    "compare",
+    "line-by-line"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/assert-text.js/issues"
+  },
+  "homepage": "https://github.com/indutny/assert-text.js#readme",
+  "devDependencies": {
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5"
+  }
+}
